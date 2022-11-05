@@ -123,3 +123,60 @@
   color: white;
   font-size: 35px;
 }
+
+/* Wedding */
+
+.wedding-container1 {
+  background-color: #ffdddd;
+  filter: grayscale(60%);
+}
+
+.wedding-container2 {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.wedding-container2 h1 {
+  font-size: 35px;
+  color: gray;
+}
+
+.wedding-container2 img {
+  margin-top: 50.5px;
+}
+
+.wedding-container3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.wedding-container3 span {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wedding-container2 {
+    max-width: 900px;
+    margin: 15px;
+  }
+
+  .wedding-container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .wedding-space {
+    margin-top: 25px;
+  }
+
+  .wedding-container2 img {
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 15px;
+    
+  }
+}
