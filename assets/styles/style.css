@@ -218,3 +218,21 @@
   color: black;
   background-color: grey;
 }
+
+/* footer */
+
+.footer-container1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-container1 a {
+  color: white;
+}
+
+.footer-container1 a:hover {
+  color: green;
+}
