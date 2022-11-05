@@ -100,3 +100,26 @@
       margin-left: 20%;
     }
 }
+
+/* section3 */
+
+.section3-container {
+  background-image: url("../images/flowers.jpg");
+  min-height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  filter: grayscale(5%);
+}
+
+.section3-container h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.section3-container p {
+  color: white;
+  font-size: 35px;
+}
