@@ -236,3 +236,42 @@
 .footer-container1 a:hover {
   color: green;
 }
+
+/* Navbar*/
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  opacity: 0.75;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.nav-container:hover {
+  opacity: 1;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 55px;
+}
+
+.nav-a1:hover {
+  background-color: gray;
+}
+
+.nav-a2:hover {
+  color: white  ;
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 425px) {
+  .nav-container {
+    display: none;
+  }
+}
