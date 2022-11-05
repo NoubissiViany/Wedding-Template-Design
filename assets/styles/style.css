@@ -40,3 +40,63 @@
   font-weight: bold;
   font-style: italic;
 }
+
+/* Jane */
+
+.jane-container1 {
+  filter: grayscale(50%);
+  background-color: #ffdddd;
+  padding-bottom: 80px;
+}
+
+.jane-container2 {
+  max-width: 900px;
+  margin: auto;
+}
+
+.jane-container2 h3 {
+  text-align: center;
+  margin-top: 80px;
+  color: gray;
+  font-size: 35px;
+}
+
+.jane-container2 img {
+  filter: grayscale(50%);
+}
+
+.jane-container2 p {
+  margin-top: 40px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.jane-btn {
+  margin-left: 40%;
+  margin-top: 30px;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+
+.jane-btn:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+    .jane-container2 {
+      margin: 30px;
+    }
+    
+    .jane-container2 img {
+      width: 100%;
+    }
+
+    .jane-btn {
+      margin-left: 20%;
+    }
+}
