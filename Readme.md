@@ -22,14 +22,14 @@ Knowledge about:
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with `git@github.com:kngcl/wedding.git` using your terminal.
-- Change to the project directory by entering: cd wedding in the terminal.
+- Clone this repository with `git@github.com:NoubissiViany/Wedding-Template-Design.git` using your terminal.
+- Change to the project directory by entering: cd Wedding-Template in the terminal.
 
 ## steps
 
-- $ git clone `https://github.com/kngcl/wedding/tree/feature/header`
-- $ `cd wedding`
-- $ `git checkout feature`
+- $ git clone `git@github.com:NoubissiViany/Wedding-Template-Design.git`
+- $ `cd Wedding-Template`
+- $ `git checkout feature/navbar`
 
 ## Start App
 
@@ -37,9 +37,9 @@ Knowledge about:
 
 ## Author
 
-👤 **kngcl**
+👤 **NoubissiViany**
 
-- GitHub: [@kngcl](git@github.com:kngcl/wedding.git)
+- GitHub: [@NoubissiViany](github.com/NoubissiViany/Wedding-Template-Design)
 
 ## 📝 License
 

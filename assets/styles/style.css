@@ -87,26 +87,6 @@
   background-color: #ccc;
 }
 
-@media only screen and (max-width: 768px) {
-  .jane-btn {
-    margin-left: 40%;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .jane-container2 {
-    margin: 30px;
-  }
-
-  .jane-container2 img {
-    width: 100%;
-  }
-
-  .jane-btn {
-    margin-left: 20%;
-  }
-}
-
 /* section3 */
 
 .section3-container {
@@ -161,29 +141,6 @@
 
 .wedding-container3 span {
   font-size: 25px;
-}
-
-@media only screen and (max-width: 768px) {
-  .wedding-container2 {
-    max-width: 900px;
-    margin: 15px;
-  }
-
-  .wedding-container3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .wedding-space {
-    margin-top: 25px;
-  }
-
-  .wedding-container2 img {
-    margin-top: 40px;
-    width: 100%;
-    border-radius: 15px;
-  }
 }
 
 /* RSVP */
@@ -276,7 +233,40 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .jane-container2 {
+    margin: 30px;
+  }
+
+  .jane-container2 img {
+    width: 100%;
+  }
+
+  .jane-btn {
+    margin-left: 20%;
+  }
+
   .nav-container {
     display: none;
+  }
+
+  .wedding-container2 {
+    max-width: 900px;
+    margin: 15px;
+  }
+
+  .wedding-container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .wedding-space {
+    margin-top: 25px;
+  }
+
+  .wedding-container2 img {
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 15px;
   }
 }
